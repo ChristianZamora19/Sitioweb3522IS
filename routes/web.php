@@ -13,11 +13,11 @@ use App\Models\Categoria;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('Templete.index');
 })->name('index');
 
